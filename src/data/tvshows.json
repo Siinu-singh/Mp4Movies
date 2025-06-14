@@ -1,0 +1,113 @@
+
+[
+  {
+    "id": "breaking-bad",
+    "title": "Breaking Bad",
+    "genre": ["Crime", "Drama", "Thriller"],
+    "year": 2008,
+    "rating": 9.5,
+    "poster": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+    "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine to secure his family's future.",
+    "seasons": 5,
+    "language": "English"
+  },
+  {
+    "id": "stranger-things",
+    "title": "Stranger Things",
+    "genre": ["Sci-Fi", "Horror", "Drama"],
+    "year": 2016,
+    "rating": 8.7,
+    "poster": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+    "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+    "seasons": 5,
+    "language": "English"
+  },
+  {
+    "id": "the-office",
+    "title": "The Office (US)",
+    "genre": ["Comedy", "Sitcom"],
+    "year": 2005,
+    "rating": 8.9,
+    "poster": "https://image.tmdb.org/t/p/w500/qWnJzyZhyy74gjpSjIXWmuk0ifX.jpg",
+    "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+    "seasons": 9,
+    "language": "English"
+  },
+  {
+    "id": "attack-on-titan",
+    "title": "Attack on Titan",
+    "genre": ["Anime", "Action", "Fantasy", "Horror"],
+    "year": 2013,
+    "rating": 9.1,
+    "poster": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQ51nJvs.jpg",
+    "description": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+    "seasons": 4,
+    "language": "Japanese"
+  },
+  {
+    "id": "planet-earth-ii",
+    "title": "Planet Earth II",
+    "genre": ["Documentary", "Nature"],
+    "year": 2016,
+    "rating": 9.5,
+    "poster": "https://image.tmdb.org/t/p/w500/iw7n6HEx2x4Kri6M2A4z2bI3Cq.jpg",
+    "description": "David Attenborough returns with a new wildlife documentary that shows life in a variety of habitats.",
+    "seasons": 1,
+    "language": "English"
+  },
+  {
+    "id": "cyber-runners",
+    "title": "Cyber Runners",
+    "genre": ["Sci-Fi", "Action", "Cyberpunk"],
+    "year": 2024,
+    "rating": 8.2,
+    "poster": "https://placehold.co/500x750.png?text=Cyber+Runners",
+    "description": "In a neon-drenched metropolis, a group of elite hackers uncovers a corporate conspiracy that threatens to control society.",
+    "seasons": 1,
+    "language": "English"
+  },
+  {
+    "id": "the-witcher",
+    "title": "The Witcher",
+    "genre": ["Fantasy", "Action", "Drama"],
+    "year": 2019,
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/7vjaCdEBYnQG8L87g2C1y3hrb00.jpg",
+    "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+    "seasons": 3,
+    "language": "English"
+  },
+  {
+    "id": "midnight-cafe",
+    "title": "Midnight Café",
+    "genre": ["Comedy", "Slice of Life", "Food"],
+    "year": 2023,
+    "rating": 8.5,
+    "poster": "https://placehold.co/500x750.png?text=Midnight+Cafe",
+    "description": "A quirky late-night café serves as a backdrop for the intertwining stories of its eccentric staff and patrons.",
+    "seasons": 2,
+    "language": "Korean"
+  },
+  {
+    "id": "sherlock",
+    "title": "Sherlock",
+    "genre": ["Crime", "Drama", "Mystery"],
+    "year": 2010,
+    "rating": 9.1,
+    "poster": "https://image.tmdb.org/t/p/w500/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+    "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+    "seasons": 4,
+    "language": "English"
+  },
+  {
+    "id": "haunted-echoes",
+    "title": "Haunted Echoes",
+    "genre": ["Horror", "Supernatural", "Mystery"],
+    "year": 2025,
+    "rating": 7.9,
+    "poster": "https://placehold.co/500x750.png?text=Haunted+Echoes",
+    "description": "A group of paranormal investigators explores America's most terrifying locations, only to find the hauntings are more real and personal than they imagined.",
+    "seasons": 1,
+    "language": "English"
+  }
+]

@@ -1,0 +1,22 @@
+
+{
+  "genres": [
+    { "name": "Action & Adventure", "slug": "action-adventure", "gradientClass": "from-red-500/20 to-red-700/20" },
+    { "name": "Anime", "slug": "anime", "gradientClass": "from-purple-500/20 to-purple-700/20" },
+    { "name": "Comedy", "slug": "comedy", "gradientClass": "from-yellow-500/20 to-yellow-700/20" },
+    { "name": "Documentary", "slug": "documentary", "gradientClass": "from-green-500/20 to-green-700/20" },
+    { "name": "Drama", "slug": "drama", "gradientClass": "from-blue-500/20 to-blue-700/20" },
+    { "name": "Fantasy", "slug": "fantasy", "gradientClass": "from-indigo-500/20 to-indigo-700/20" },
+    { "name": "Horror", "slug": "horror", "gradientClass": "from-gray-600/20 to-gray-800/20" },
+    { "name": "Kids & Family", "slug": "kids-family", "gradientClass": "from-pink-500/20 to-pink-700/20" },
+    { "name": "Mystery & Thrillers", "slug": "mystery-thrillers", "gradientClass": "from-teal-500/20 to-teal-700/20" },
+    { "name": "Romance", "slug": "romance", "gradientClass": "from-rose-500/20 to-rose-700/20" },
+    { "name": "Sci-Fi", "slug": "sci-fi", "gradientClass": "from-cyan-500/20 to-cyan-700/20" }
+  ],
+  "featuredCollections": [
+    { "name": "Home Premiere", "slug": "home-premiere", "gradientClass": "from-orange-500/20 to-orange-700/20" },
+    { "name": "New Releases", "slug": "new-releases", "gradientClass": "from-lime-500/20 to-lime-700/20" },
+    { "name": "Critically Acclaimed", "slug": "critically-acclaimed", "gradientClass": "from-amber-500/20 to-amber-700/20" },
+    { "name": "Top Rated", "slug": "top-rated", "gradientClass": "from-fuchsia-500/20 to-fuchsia-700/20" }
+  ]
+}

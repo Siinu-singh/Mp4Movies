@@ -1,8 +1,9 @@
 
 import { getMovieBySlug, getMovies } from '@/lib/movie-service';
-import MovieDetails from '@/components/movies/MovieDetails';
+// MovieDetails is now rendered by MovieDetailClientWrapper
 import AnimatedPage from '@/components/shared/AnimatedPage';
 import { notFound } from 'next/navigation';
+import MovieDetailClientWrapper from './MovieDetailClientWrapper'; // Import the new wrapper
 
 export async function generateStaticParams() {
   const movies = await getMovies();
@@ -54,8 +55,8 @@ export default async function MovieDetailPage({ params }) {
 
   return (
     <AnimatedPage>
-      {/* MovieDetails now manages its own full-width backdrop and contained content below it */}
-      <MovieDetails movie={movie} />
+      {/* Use the client wrapper to handle the delay and then render MovieDetails */}
+      <MovieDetailClientWrapper movie={movie} />
     </AnimatedPage>
   );
 }

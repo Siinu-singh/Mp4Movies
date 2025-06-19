@@ -34,40 +34,69 @@ export default function SearchModal({ isOpen, onClose, allMovies = [] }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [initialDelayCompletedThisSession, setInitialDelayCompletedThisSession] = useState(false);
 
   useEffect(() => {
+    // Reset delay flag when modal is closed
     if (!isOpen) {
       setSearchTerm('');
       setSearchResults([]);
+      setIsLoading(false);
+      setInitialDelayCompletedThisSession(false);
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (!isOpen) {
       return;
     }
 
-    if (searchTerm.trim() === '') {
+    const trimmedSearchTerm = searchTerm.trim();
+
+    if (trimmedSearchTerm === '') {
       setSearchResults([]);
+      setIsLoading(false);
+      // If search term is cleared, reset the delay flag for the next actual search
+      setInitialDelayCompletedThisSession(false); 
       return;
     }
 
     setIsLoading(true);
-    const lowerSearchTerm = searchTerm.toLowerCase();
-    const filteredMovies = allMovies.filter(movie =>
-      movie.title.toLowerCase().includes(lowerSearchTerm) ||
-      (movie.description && movie.description.toLowerCase().includes(lowerSearchTerm)) ||
-      (movie.genre && movie.genre.some(g => g.toLowerCase().includes(lowerSearchTerm)))
-    );
+    const lowerSearchTerm = trimmedSearchTerm.toLowerCase();
     
-    // Simulate loading for better UX with quick filtering
+    let delayDuration = 300; // Default short delay for subsequent searches
+
+    if (!initialDelayCompletedThisSession) {
+      delayDuration = 30000; // 30-second delay for the first search in the session
+    }
+
     const timer = setTimeout(() => {
-        setSearchResults(filteredMovies);
-        setIsLoading(false);
-    }, 300); // Small delay to show loading state
+      const filteredMovies = allMovies.filter(movie =>
+        movie.title.toLowerCase().includes(lowerSearchTerm) ||
+        (movie.description && movie.description.toLowerCase().includes(lowerSearchTerm)) ||
+        (movie.genre && movie.genre.some(g => g.toLowerCase().includes(lowerSearchTerm)))
+      );
+      setSearchResults(filteredMovies);
+      setIsLoading(false);
+      if (!initialDelayCompletedThisSession) {
+        setInitialDelayCompletedThisSession(true); // Mark that the initial long delay has occurred
+      }
+    }, delayDuration);
 
     return () => clearTimeout(timer);
 
-  }, [searchTerm, allMovies, isOpen]);
+  }, [searchTerm, allMovies, isOpen, initialDelayCompletedThisSession]);
 
-  const handleSearch = (e) => {
+  const handleSearchFormSubmit = (e) => {
     e.preventDefault();
-    // Search is triggered by useEffect on searchTerm change
+    // The actual search logic is handled by the useEffect above, triggered by searchTerm changes.
+    // This function primarily prevents default form submission.
+    // If searchTerm is empty and user hits enter, we might want to ensure the state reflects that.
+    if (searchTerm.trim() === '' && searchResults.length > 0) {
+      setSearchResults([]);
+      setIsLoading(false);
+      setInitialDelayCompletedThisSession(false);
+    }
   };
 
   return (
@@ -92,7 +121,7 @@ export default function SearchModal({ isOpen, onClose, allMovies = [] }) {
             </DialogDescription>
           </DialogHeader>
 
-          <form onSubmit={handleSearch} className="px-6 pb-6 bg-background z-10 border-b border-border shrink-0">
+          <form onSubmit={handleSearchFormSubmit} className="px-6 pb-6 bg-background z-10 border-b border-border shrink-0">
             <div className="flex w-full items-center space-x-2">
               <Input
                 type="text"
@@ -174,4 +203,3 @@ export default function SearchModal({ isOpen, onClose, allMovies = [] }) {
     </Dialog>
   );
 }
-

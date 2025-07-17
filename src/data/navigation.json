@@ -1,0 +1,111 @@
+{
+  "genres": [
+    { 
+      "name": "Action & Adventure", 
+      "slug": "action-adventure", 
+      "gradientClass": "from-red-500/20 to-red-700/20",
+      "title": "Action & Adventure Movies",
+      "description": "High-octane action films and adventure stories with thrilling sequences"
+    },
+    { 
+      "name": "Anime", 
+      "slug": "anime", 
+      "gradientClass": "from-purple-500/20 to-purple-700/20",
+      "title": "Anime Series & Films",
+      "description": "Japanese animated content ranging from action to romance"
+    },
+    { 
+      "name": "Comedy", 
+      "slug": "comedy", 
+      "gradientClass": "from-yellow-500/20 to-yellow-700/20",
+      "title": "Comedy Entertainment",
+      "description": "Laugh-out-loud movies and shows to brighten your day"
+    },
+    { 
+      "name": "Documentary", 
+      "slug": "documentary", 
+      "gradientClass": "from-green-500/20 to-green-700/20",
+      "title": "Documentary Films",
+      "description": "Factual programming exploring real-world topics and stories"
+    },
+    { 
+      "name": "Drama", 
+      "slug": "drama", 
+      "gradientClass": "from-blue-500/20 to-blue-700/20",
+      "title": "Dramatic Content",
+      "description": "Emotionally powerful stories and character-driven narratives"
+    },
+    { 
+      "name": "Fantasy", 
+      "slug": "fantasy", 
+      "gradientClass": "from-indigo-500/20 to-indigo-700/20",
+      "title": "Fantasy Worlds",
+      "description": "Magical realms and mythical creatures come to life"
+    },
+    { 
+      "name": "Horror", 
+      "slug": "horror", 
+      "gradientClass": "from-gray-600/20 to-gray-800/20",
+      "title": "Horror Films",
+      "description": "Chilling stories designed to scare and thrill"
+    },
+    { 
+      "name": "Kids & Family", 
+      "slug": "kids-family", 
+      "gradientClass": "from-pink-500/20 to-pink-700/20",
+      "title": "Family-Friendly Content",
+      "description": "Entertainment suitable for viewers of all ages"
+    },
+    { 
+      "name": "Mystery & Thrillers", 
+      "slug": "mystery-thrillers", 
+      "gradientClass": "from-teal-500/20 to-teal-700/20",
+      "title": "Mystery & Thriller Stories",
+      "description": "Suspenseful tales full of twists and intrigue"
+    },
+    { 
+      "name": "Romance", 
+      "slug": "romance", 
+      "gradientClass": "from-rose-500/20 to-rose-700/20",
+      "title": "Romantic Content",
+      "description": "Heartwarming stories about love and relationships"
+    },
+    { 
+      "name": "Sci-Fi", 
+      "slug": "sci-fi", 
+      "gradientClass": "from-cyan-500/20 to-cyan-700/20",
+      "title": "Science Fiction",
+      "description": "Futuristic stories exploring technology and space"
+    }
+  ],
+  "featuredCollections": [
+    { 
+      "name": "Home Premiere", 
+      "slug": "home-premiere", 
+      "gradientClass": "from-orange-500/20 to-orange-700/20",
+      "title": "Home Premieres",
+      "description": "New releases available to watch at home"
+    },
+    { 
+      "name": "New Releases", 
+      "slug": "new-releases", 
+      "gradientClass": "from-lime-500/20 to-lime-700/20",
+      "title": "Latest Releases",
+      "description": "The newest movies and shows available now"
+    },
+    { 
+      "name": "Critically Acclaimed", 
+      "slug": "critically-acclaimed", 
+      "gradientClass": "from-amber-500/20 to-amber-700/20",
+      "title": "Award-Winning Content",
+      "description": "Highly praised films and series recognized by critics"
+    },
+    { 
+      "name": "Top Rated", 
+      "slug": "top-rated", 
+      "gradientClass": "from-fuchsia-500/20 to-fuchsia-700/20",
+      "title": "Fan Favorites",
+      "description": "The most popular content according to viewer ratings"
+    }
+  ]
+}

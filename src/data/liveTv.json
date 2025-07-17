@@ -1,0 +1,152 @@
+[
+  {
+    "id": "news-channel-1",
+    "title": "Global News Live",
+    "thumbnail": "https://images.unsplash.com/photo-1681994328948-494b8af8eb2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuZXdzJTIwYnJvYWRjYXN0fGVufDB8fHx8MTc0OTg4ODE1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "dataAiHint": "news broadcast",
+    "category": "News",
+    "description": "24/7 live coverage of breaking news and current events from around the world.",
+    "isLive": true,
+    "streamUrl": "#",
+    "meta": {
+      "title": "Global News Live",
+      "description": "24/7 live coverage of breaking news and current events from around the world.",
+      "keywords": "News"
+    }
+  },
+  {
+    "id": "sports-arena-hd",
+    "title": "Sports Arena HD",
+    "thumbnail": "https://images.unsplash.com/photo-1608154119029-53f3c6ad12e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzcG9ydHMlMjBzdGFkaXVtfGVufDB8fHx8MTc0OTg4ODE1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "dataAiHint": "sports stadium",
+    "category": "Sports",
+    "description": "Catch live action from major sports leagues, exclusive interviews, and expert analysis.",
+    "isLive": true,
+    "streamUrl": "#",
+    "meta": {
+      "title": "Sports Arena HD",
+      "description": "Catch live action from major sports leagues, exclusive interviews, and expert analysis.",
+      "keywords": "Sports"
+    }
+  },
+  {
+    "id": "music-vibes-tv",
+    "title": "MusicVibes TV",
+    "thumbnail": "https://images.unsplash.com/photo-1658227633934-b589ca17d602?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bXVzaWMlMjBjb25jZXJ0fGVufDB8fHx8MTc0OTg4ODE1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "dataAiHint": "music concert",
+    "category": "Music",
+    "description": "The latest music videos, live performances, and artist spotlights across all genres.",
+    "isLive": true,
+    "streamUrl": "#",
+    "meta": {
+      "title": "MusicVibes TV",
+      "description": "The latest music videos, live performances, and artist spotlights across all genres.",
+      "keywords": "Music"
+    }
+  },
+  {
+    "id": "movie-plex-live",
+    "title": "MoviePlex Live",
+    "thumbnail": "https://images.unsplash.com/photo-1631702825172-a9a848c473ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaW5lbWElMjBoYWxsfGVufDB8fHx8MTc0OTg4ODE1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "dataAiHint": "cinema hall",
+    "category": "Movies",
+    "description": "Non-stop movie marathons, classic films, and behind-the-scenes content.",
+    "isLive": true,
+    "streamUrl": "#",
+    "meta": {
+      "title": "MoviePlex Live",
+      "description": "Non-stop movie marathons, classic films, and behind-the-scenes content.",
+      "keywords": "Movies"
+    }
+  },
+  {
+    "id": "docu-world",
+    "title": "DocuWorld",
+    "thumbnail": "https://images.unsplash.com/photo-1565785501638-278db78ae75d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuYXR1cmUlMjBkb2N1bWVudGFyeXxlbnwwfHx8fDE3NDk4ODgxNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "dataAiHint": "nature documentary",
+    "category": "Documentary",
+    "description": "Explore captivating documentaries on nature, history, science, and human stories.",
+    "isLive": true,
+    "streamUrl": "#",
+    "meta": {
+      "title": "DocuWorld",
+      "description": "Explore captivating documentaries on nature, history, science, and human stories.",
+      "keywords": "Documentary"
+    }
+  },
+  {
+    "id": "comedy-central-live",
+    "title": "Comedy Central Live",
+    "thumbnail": "https://images.unsplash.com/photo-1728674114827-e34c17a67534?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21lZHklMjBzdGFnZXxlbnwwfHx8fDE3NDk4ODgxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "dataAiHint": "comedy stage",
+    "category": "Comedy",
+    "description": "Laugh out loud with stand-up specials, hilarious series, and comedy sketches.",
+    "isLive": false,
+    "streamUrl": "#",
+    "meta": {
+      "title": "Comedy Central Live",
+      "description": "Laugh out loud with stand-up specials, hilarious series, and comedy sketches.",
+      "keywords": "Comedy"
+    }
+  },
+  {
+    "id": "sci-fi-stream",
+    "title": "Sci-Fi Stream",
+    "thumbnail": "https://images.unsplash.com/photo-1567449394819-af00b2318cec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmdXR1cmlzdGljJTIwY2l0eXxlbnwwfHx8fDE3NDk4ODgxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "dataAiHint": "futuristic city",
+    "category": "Sci-Fi",
+    "description": "Journey to other worlds with a dedicated stream of science fiction movies and series.",
+    "isLive": true,
+    "streamUrl": "#",
+    "meta": {
+      "title": "Sci-Fi Stream",
+      "description": "Journey to other worlds with a dedicated stream of science fiction movies and series.",
+      "keywords": "Sci-Fi"
+    }
+  },
+  {
+    "id": "kids-zone-tv",
+    "title": "Kids Zone TV",
+    "thumbnail": "https://images.unsplash.com/photo-1723113930229-6c41a7ae5c92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXJ0b29uJTIwY2hhcmFjdGVyc3xlbnwwfHx8fDE3NDk4ODgxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "dataAiHint": "cartoon characters",
+    "category": "Kids",
+    "description": "Safe and fun entertainment for children, featuring animated shows and educational content.",
+    "isLive": true,
+    "streamUrl": "#",
+    "meta": {
+      "title": "Kids Zone TV",
+      "description": "Safe and fun entertainment for children, featuring animated shows and educational content.",
+      "keywords": "Kids"
+    }
+  },
+  {
+    "id": "gamer-grid",
+    "title": "Gamer Grid",
+    "thumbnail": "https://images.unsplash.com/photo-1580234811497-9df7fd2f357e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlc3BvcnRzJTIwZ2FtaW5nfGVufDB8fHx8MTc0OTg4ODE1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "dataAiHint": "esports gaming",
+    "category": "Gaming",
+    "description": "Live esports tournaments, game reviews, and streams from top gamers.",
+    "isLive": true,
+    "streamUrl": "#",
+    "meta": {
+      "title": "Gamer Grid",
+      "description": "Live esports tournaments, game reviews, and streams from top gamers.",
+      "keywords": "Gaming"
+    }
+  },
+  {
+    "id": "travel-escape",
+    "title": "Travel Escape",
+    "thumbnail": "https://images.unsplash.com/photo-1468413253725-0d5181091126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0cm9waWNhbCUyMGJlYWNofGVufDB8fHx8MTc0OTg4ODE1M3ww&ixlibrb-4.1.0&q=80&w=1080",
+    "dataAiHint": "tropical beach",
+    "category": "Travel",
+    "description": "Explore breathtaking destinations and cultures from the comfort of your home.",
+    "isLive": false,
+    "streamUrl": "#",
+    "meta": {
+      "title": "Travel Escape",
+      "description": "Explore breathtaking destinations and cultures from the comfort of your home.",
+      "keywords": "Travel"
+    }
+  }
+]

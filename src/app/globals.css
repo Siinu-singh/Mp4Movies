@@ -1,0 +1,98 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 0% 2.0%; /* #050505 - Dribbble Movie Max dark theme */
+    --foreground: 0 0% 100%; /* #FFFFFF */
+
+    --card: 216 10% 10%; /* Keeping card slightly lighter than pure black for depth, adjust if needed */
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 9% 7%; /* Darker popover */
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 19 98% 55%; /* #FD5E1E Orange */
+    --primary-foreground: 0 0% 100%; /* White text on orange */
+
+    --secondary: 216 10% 15%; /* Darker accent */
+    --secondary-foreground: 0 0% 80%;
+
+    --muted: 216 10% 15%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 217 53% 41%; /* #3260a1 Blue - Keep for other potential accents or review if orange should be the sole accent */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%; /* Default red */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 9% 12%; /* Darker border */
+    --input: 220 9% 12%; /* Darker input */
+    --ring: 19 98% 55%; /* Orange for focus rings */
+    --radius: 0.5rem;
+
+    --chart-1: 19 98% 55%;
+    --chart-2: 217 53% 41%;
+    --chart-3: 180 80% 40%; 
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .light {
+    /* TODO: Define light theme variables if needed, currently focusing on dark theme for Movie Max */
+    --background: 0 0% 98%; 
+    --foreground: 216 10% 8%; 
+    --card: 0 0% 100%; 
+    --card-foreground: 216 10% 8%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 216 10% 8%;
+    --primary: 19 98% 55%; 
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 90%; 
+    --secondary-foreground: 216 10% 8%;
+    --muted: 0 0% 90%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 217 53% 41%; 
+    --accent-foreground: 0 0% 100%;
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
+    --ring: 19 98% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+@layer utilities {
+  .hide-native-scrollbar {
+    /* For Webkit browsers (Chrome, Safari, Edge) */
+    &::-webkit-scrollbar {
+      width: 0px; /* Set to 0 to hide completely, or adjust for a thinner scrollbar */
+      height: 0px;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent; /* Optional: makes track invisible */
+    }
+    &::-webkit-scrollbar-thumb {
+      background: transparent; /* Hides the thumb */
+    }
+    /* For Firefox */
+    scrollbar-width: none;
+    /* For IE and older Edge */
+    -ms-overflow-style: none; 
+  }
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "breaking-bad",
+    "title": "Breaking Bad",
+    "slug": "breaking-bad",
+    "tagline": "Say my name.",
+    "genre": ["Crime", "Drama", "Thriller"],
+    "year": 2008,
+    "rating": 9.5,
+    "poster": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+    "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine to secure his family's future.",
+    "seasons": 5,
+    "language": "English",
+    "meta": {
+      "title": "Breaking Bad",
+      "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine to secure his family's future."
+    }
+  },
+  {
+    "id": "stranger-things",
+    "title": "Stranger Things",
+    "slug": "stranger-things",
+    "tagline": "The world is turning upside down.",
+    "genre": ["Sci-Fi", "Horror", "Drama"],
+    "year": 2016,
+    "rating": 8.7,
+    "poster": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+    "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+    "seasons": 5,
+    "language": "English",
+    "meta": {
+      "title": "Stranger Things",
+      "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl."
+    }
+  },
+  {
+    "id": "the-office",
+    "title": "The Office (US)",
+    "slug": "the-office-us",
+    "tagline": "America's most dysfunctional office.",
+    "genre": ["Comedy", "Sitcom"],
+    "year": 2005,
+    "rating": 8.9,
+    "poster": "https://image.tmdb.org/t/p/w500/qWnJzyZhyy74gjpSjIXWmuk0ifX.jpg",
+    "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+    "seasons": 9,
+    "language": "English",
+    "meta": {
+      "title": "The Office (US)",
+      "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium."
+    }
+  },
+  {
+    "id": "attack-on-titan",
+    "title": "Attack on Titan",
+    "slug": "attack-on-titan",
+    "tagline": "Devour or be devoured.",
+    "genre": ["Anime", "Action", "Fantasy", "Horror"],
+    "year": 2013,
+    "rating": 9.1,
+    "poster": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSgVLwmeJQBHNxGE8AMaCGWQLWoCUZMFJvuJy0nKdDfSnSXITF69Ivwb1qqnZNgyloaCKPo",
+    "description": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+    "seasons": 4,
+    "language": "Japanese",
+    "meta": {
+      "title": "Attack on Titan",
+      "description": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction."
+    }
+  },
+  {
+    "id": "planet-earth-ii",
+    "title": "Planet Earth II",
+    "slug": "planet-earth-ii",
+    "tagline": "Experience nature like never before.",
+    "genre": ["Documentary", "Nature"],
+    "year": 2016,
+    "rating": 9.5,
+    "poster": "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+    "description": "David Attenborough returns with a new wildlife documentary that shows life in a variety of habitats.",
+    "seasons": 1,
+    "language": "English",
+    "meta": {
+      "title": "Planet Earth II",
+      "description": "David Attenborough returns with a new wildlife documentary that shows life in a variety of habitats."
+    }
+  },
+  {
+    "id": "cyber-runners",
+    "title": "Cyber Runners",
+    "slug": "cyber-runners",
+    "tagline": "Hack the system. Save the world.",
+    "genre": ["Sci-Fi", "Action", "Cyberpunk"],
+    "year": 2024,
+    "rating": 8.2,
+    "poster": "https://placehold.co/500x750.png?text=Cyber+Runners",
+    "description": "In a neon-drenched metropolis, a group of elite hackers uncovers a corporate conspiracy that threatens to control society.",
+    "seasons": 1,
+    "language": "English",
+    "meta": {
+      "title": "Cyber Runners",
+      "description": "In a neon-drenched metropolis, a group of elite hackers uncovers a corporate conspiracy that threatens to control society."
+    }
+  },
+  {
+    "id": "the-witcher",
+    "title": "The Witcher",
+    "slug": "the-witcher",
+    "tagline": "The worst monsters are the ones we create.",
+    "genre": ["Fantasy", "Action", "Drama"],
+    "year": 2019,
+    "rating": 8.2,
+    "poster": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrpQa4kPsu6vyXAGfOOHSuscIGwdQuxyOs0Lp-EndlqkhFdcxNPg0kt-lws9e49GAqx2wxRg",
+    "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+    "seasons": 3,
+    "language": "English",
+    "meta": {
+      "title": "The Witcher",
+      "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts."
+    }
+  },
+  {
+    "id": "midnight-cafe",
+    "title": "Midnight Café",
+    "slug": "midnight-cafe",
+    "tagline": "Every night has a story.",
+    "genre": ["Comedy", "Slice of Life", "Food"],
+    "year": 2023,
+    "rating": 8.5,
+    "poster": "https://placehold.co/500x750.png?text=Midnight+Cafe",
+    "description": "A quirky late-night café serves as a backdrop for the intertwining stories of its eccentric staff and patrons.",
+    "seasons": 2,
+    "language": "Korean",
+    "meta": {
+      "title": "Midnight Café",
+      "description": "A quirky late-night café serves as a backdrop for the intertwining stories of its eccentric staff and patrons."
+    }
+  },
+  {
+    "id": "sherlock",
+    "title": "Sherlock",
+    "slug": "sherlock",
+    "tagline": "The game is back on.",
+    "genre": ["Crime", "Drama", "Mystery"],
+    "year": 2010,
+    "rating": 9.1,
+    "poster": "https://image.tmdb.org/t/p/w500/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+    "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+    "seasons": 4,
+    "language": "English",
+    "meta": {
+      "title": "Sherlock",
+      "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London."
+    }
+  },
+  {
+    "id": "haunted-echoes",
+    "title": "Haunted Echoes",
+    "slug": "haunted-echoes",
+    "tagline": "Some echoes never fade.",
+    "genre": ["Horror", "Supernatural", "Mystery"],
+    "year": 2025,
+    "rating": 7.9,
+    "poster": "https://placehold.co/500x750.png?text=Haunted+Echoes",
+    "description": "A group of paranormal investigators explores America's most terrifying locations, only to find the hauntings are more real and personal than they imagined.",
+    "seasons": 1,
+    "language": "English",
+    "meta": {
+      "title": "Haunted Echoes",
+      "description": "A group of paranormal investigators explores America's most terrifying locations, only to find the hauntings are more real and personal than they imagined."
+    }
+  }
+]

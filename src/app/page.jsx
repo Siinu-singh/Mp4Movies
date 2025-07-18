@@ -7,8 +7,8 @@ import HeroCarousel from '@/components/home/HeroCarousel';
 import HomePageContent from '@/components/home/HomePageContent'; 
 
 export const metadata = {
-  title: 'Mp4Movies 2025 | Download Free Latest Mp4Movies | Daily Updates',
-  description: 'Download the latest movies in MP4 format on Mp4Movies. Enjoy HD Bollywood, Hollywood, South Indian, and more updated daily!',
+  title: 'MP4Movies | Download Latest HD Movies 2025 | MP4Movies ',
+  description: 'Stream or download the latest Bollywood, South Indian, Hollywood, and Hindi-dubbed movies in MP4 format. Fast, mobile-friendly, and updated daily only on MP4Movies.',
   keywords: ['Mp4Movies', 'Download Movies', 'HD Movies', 'Bollywood Movies', 'Hollywood Movies', 'South Indian Movies'],
   alternates: {
     canonical: 'https://mp4moviess.com',

@@ -30,8 +30,8 @@ const cardHoverVariants = {
     scale: 1,
   },
   hover: {
-    boxShadow: "0px 12px 35px hsl(var(--primary)/0.35)",
-    scale: 1.05,
+    // boxShadow: "0px 12px 35px hsl(var(--primary)/0.35)",
+    scale: 1.0005,
     zIndex: 10,
     transition: { type: "spring", stiffness: 300, damping: 20 }
   }
